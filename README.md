@@ -1,6 +1,4 @@
-#YouTube
-
-# 📺 Fully Responsive YouTube Interface Clone (HTML & Advanced CSS)
+# YouTube
 
 **A pixel-perfect, fully responsive front-end replication of the YouTube homepage layout, built entirely with modern HTML5 and CSS3.**
 
