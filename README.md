@@ -4,7 +4,7 @@
 
 **A pixel-perfect, fully responsive front-end replication of the YouTube homepage layout, built entirely with modern HTML5 and CSS3.**
 
-> **View Live Demo Here: [https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/](https://manikantasakalabakthula.github.io/youtube/)**
+> **View Live Demo Here: [YouTube-Clone](https://manikantasakalabakthula.github.io/youtube/)**
 
 ---
 
@@ -29,4 +29,4 @@ This project serves as a comprehensive portfolio piece demonstrating mastery of 
 * CSS3
 
 
-**Author:** [Your Name/GitHub Profile Link]
+**Author:** [https://github.com/Manikantasakalabakthula]
