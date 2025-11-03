@@ -1,0 +1,122 @@
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    display: grid;
+    margin: 0px 20px;
+}
+.youtube{
+    padding-top: 55px;
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+.thumbnail-image{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+.time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 12px;
+    padding: 2px 4px;
+
+}
+.youtube-card{
+    color: black;
+    text-decoration: none;
+}
+.youtube-card .thumbnail-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-des{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.card-des img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+p{
+    margin: 0;
+    font-size: 12px;
+}
+.p1{
+    margin-bottom: 5px;
+}
+.card-name{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.profile-wrapper{
+    position: relative;
+}
+.profile-card{
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50px 120px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.2),-3px -5px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.cc:hover ~ .profile-card{
+    opacity: 1;
+}
+
+.profile-card img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.channel-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.channel-sub{
+    font-size: 12px;
+}
+@media screen and (max-width:480px){
+    .youtube{
+        grid-template-columns: 1fr;
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .youtube{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 50px;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .youtube{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 200px;
+    }
+}
+@media screen and (min-width:1025px){
+    .youtube{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .card-name{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .channel-name,.channel-sub,.p1,.p2{
+        font-size: 14px;
+    }
+}
