@@ -1,4 +1,6 @@
 body{
+    background-color: black;
+    color: white;
     font-family: "Roboto", sans-serif;
     padding: 10px;
     display: grid;
@@ -28,7 +30,7 @@ body{
 
 }
 .youtube-card{
-    color: black;
+    ccolor: white;
     text-decoration: none;
 }
 .youtube-card .thumbnail-image img{
@@ -61,7 +63,8 @@ p{
     position: relative;
 }
 .profile-card{
-    background-color: white;
+    background-color: black;
+    color: white;
     padding: 10px;
     display: grid;
     grid-template-columns: 50px 120px;
